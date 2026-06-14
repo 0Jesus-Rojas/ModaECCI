@@ -1,0 +1,40 @@
+body {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .navbar {
+            background-color: #1f1f1f !important;
+        }
+        .card {
+            background-color: #1e1e1e;
+            border-color: #333;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #0d6efd;
+        }
+        .carousel-item img {
+            object-fit: cover;
+            height: 400px;
+        }
+        .section-title {
+            color: #ffffff;
+            border-bottom: 2px solid #0d6efd;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 30px;
+        }
+
+.navigation{
+    color: #0066ff;
+}
+
+
+.active{
+    color: #c45eff;
+}
+
+.cabecera-imagen{
+    object-position: top;
+}
